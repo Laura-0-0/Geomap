@@ -1,0 +1,3898 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ecdb111c700fe6d389c9d2fe901d6279 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ecdb111c700fe6d389c9d2fe901d6279" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ecdb111c700fe6d389c9d2fe901d6279 = L.map(
+                "map_ecdb111c700fe6d389c9d2fe901d6279",
+                {
+                    center: [-27.0, 153.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9733ef012b1e4d680f53e3ee3417d427 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9733ef012b1e4d680f53e3ee3417d427.addTo(map_ecdb111c700fe6d389c9d2fe901d6279);
+        
+    
+            var marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_5d06b61a47e41501010499a578ed05fe = L.marker(
+                [-27.6910154, 153.125553],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_c297e80b72411d5c18cc6f6b5c6c8e7d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_900bfa8c5515764fff7ea89e2913614d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b545f8d728bd4d5bb72f2e2d50e1f91b = $(`<div id="html_b545f8d728bd4d5bb72f2e2d50e1f91b" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> WATERFORD WEST<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 60.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_900bfa8c5515764fff7ea89e2913614d.setContent(html_b545f8d728bd4d5bb72f2e2d50e1f91b);
+            
+        
+
+        marker_5d06b61a47e41501010499a578ed05fe.bindPopup(popup_900bfa8c5515764fff7ea89e2913614d)
+        ;
+
+        
+    
+    
+                marker_5d06b61a47e41501010499a578ed05fe.setIcon(icon_c297e80b72411d5c18cc6f6b5c6c8e7d);
+            
+    
+            var marker_522df34d1b0dae7da6dcc39b0aa449fb = L.marker(
+                [-27.7030065, 153.2181428],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_b2f4c14c4da83007181f49c87f44e75f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae2f3b0bb9bed7a2f04f73d623fa8ac5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f0fdd9f7cf83eeccc2ba6e7e95e2254 = $(`<div id="html_5f0fdd9f7cf83eeccc2ba6e7e95e2254" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> EAGLEBY<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 74.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Working Towards NQS<br>         <b>Region:</b> City         </div>`)[0];
+                popup_ae2f3b0bb9bed7a2f04f73d623fa8ac5.setContent(html_5f0fdd9f7cf83eeccc2ba6e7e95e2254);
+            
+        
+
+        marker_522df34d1b0dae7da6dcc39b0aa449fb.bindPopup(popup_ae2f3b0bb9bed7a2f04f73d623fa8ac5)
+        ;
+
+        
+    
+    
+                marker_522df34d1b0dae7da6dcc39b0aa449fb.setIcon(icon_b2f4c14c4da83007181f49c87f44e75f);
+            
+    
+            var marker_8f3f1e89797f2fa89ea29a897dec2607 = L.marker(
+                [-28.027218, 153.4168032],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_8d4d9e826425f04b176944f02206ee1a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ee7b3b273e684c34852204a2e575fa4c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36ef98b1193389612321c735c8d04393 = $(`<div id="html_36ef98b1193389612321c735c8d04393" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> BROADBEACH WATERS<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 75.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> City         </div>`)[0];
+                popup_ee7b3b273e684c34852204a2e575fa4c.setContent(html_36ef98b1193389612321c735c8d04393);
+            
+        
+
+        marker_8f3f1e89797f2fa89ea29a897dec2607.bindPopup(popup_ee7b3b273e684c34852204a2e575fa4c)
+        ;
+
+        
+    
+    
+                marker_8f3f1e89797f2fa89ea29a897dec2607.setIcon(icon_8d4d9e826425f04b176944f02206ee1a);
+            
+    
+            var marker_2c61e43e3caf59a534469e90d4da6312 = L.marker(
+                [-28.0848122, 153.4353217],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_a1adf6bd9d3acab89141992efa37101c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_09847ae0312296e218e4738e9e16156f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39800d203f409c8fbb72e971bc315369 = $(`<div id="html_39800d203f409c8fbb72e971bc315369" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> BURLEIGH WATERS<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 106.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> City         </div>`)[0];
+                popup_09847ae0312296e218e4738e9e16156f.setContent(html_39800d203f409c8fbb72e971bc315369);
+            
+        
+
+        marker_2c61e43e3caf59a534469e90d4da6312.bindPopup(popup_09847ae0312296e218e4738e9e16156f)
+        ;
+
+        
+    
+    
+                marker_2c61e43e3caf59a534469e90d4da6312.setIcon(icon_a1adf6bd9d3acab89141992efa37101c);
+            
+    
+            var marker_d5d592e619b5d725a869c75b7a6c9c5e = L.marker(
+                [-28.021166, 153.3691856],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_f04d99305c64202088fedb19c6b61185 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0cfcaccf7626ca57f3fbff386e4d2f13 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03aaff101e4c9c79189d11e8c3d34fb4 = $(`<div id="html_03aaff101e4c9c79189d11e8c3d34fb4" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> CARRARA<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 92.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> City         </div>`)[0];
+                popup_0cfcaccf7626ca57f3fbff386e4d2f13.setContent(html_03aaff101e4c9c79189d11e8c3d34fb4);
+            
+        
+
+        marker_d5d592e619b5d725a869c75b7a6c9c5e.bindPopup(popup_0cfcaccf7626ca57f3fbff386e4d2f13)
+        ;
+
+        
+    
+    
+                marker_d5d592e619b5d725a869c75b7a6c9c5e.setIcon(icon_f04d99305c64202088fedb19c6b61185);
+            
+    
+            var marker_e0ee121e11e3686d848398033565b86f = L.marker(
+                [-28.157286, 153.4610664],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_8dfe1c680d7700383c47ef7ec9628cdc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b8bc6d6e23cf9afb9ab8575a56083d16 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d056d233ed701f91ffb70b7a645c8009 = $(`<div id="html_d056d233ed701f91ffb70b7a645c8009" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> CURRUMBIN WATERS<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 60.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> City         </div>`)[0];
+                popup_b8bc6d6e23cf9afb9ab8575a56083d16.setContent(html_d056d233ed701f91ffb70b7a645c8009);
+            
+        
+
+        marker_e0ee121e11e3686d848398033565b86f.bindPopup(popup_b8bc6d6e23cf9afb9ab8575a56083d16)
+        ;
+
+        
+    
+    
+                marker_e0ee121e11e3686d848398033565b86f.setIcon(icon_8dfe1c680d7700383c47ef7ec9628cdc);
+            
+    
+            var marker_e51e315008757ddab8359020f6bf2337 = L.marker(
+                [-28.126998, 153.4591428],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_681270cbb9ff2fb8162e7b6bf3660199 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9088669ebaa8daf733fcf9fedbbe5b02 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_564cdcffe6f649e7b0ad480c04bf9b34 = $(`<div id="html_564cdcffe6f649e7b0ad480c04bf9b34" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> ELANORA<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 70.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Working Towards NQS<br>         <b>Region:</b> City         </div>`)[0];
+                popup_9088669ebaa8daf733fcf9fedbbe5b02.setContent(html_564cdcffe6f649e7b0ad480c04bf9b34);
+            
+        
+
+        marker_e51e315008757ddab8359020f6bf2337.bindPopup(popup_9088669ebaa8daf733fcf9fedbbe5b02)
+        ;
+
+        
+    
+    
+                marker_e51e315008757ddab8359020f6bf2337.setIcon(icon_681270cbb9ff2fb8162e7b6bf3660199);
+            
+    
+            var marker_069c9d9c7bd57df7e2e9b4eb8fc6d7e3 = L.marker(
+                [-27.9089705, 153.3348322],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_b27a54b12f2a0dd739fbd234d89d23b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_415358393923c04ad4bc291655a1b83b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a797c4c3a734d556498bfcdfa7d14fe5 = $(`<div id="html_a797c4c3a734d556498bfcdfa7d14fe5" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> HELENSVALE<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 75.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> City         </div>`)[0];
+                popup_415358393923c04ad4bc291655a1b83b.setContent(html_a797c4c3a734d556498bfcdfa7d14fe5);
+            
+        
+
+        marker_069c9d9c7bd57df7e2e9b4eb8fc6d7e3.bindPopup(popup_415358393923c04ad4bc291655a1b83b)
+        ;
+
+        
+    
+    
+                marker_069c9d9c7bd57df7e2e9b4eb8fc6d7e3.setIcon(icon_b27a54b12f2a0dd739fbd234d89d23b8);
+            
+    
+            var marker_9e37089351d2ad6dba3814dc0e589501 = L.marker(
+                [-28.052458, 153.4218922],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_ee45db6f0c60761619ab1c245e95ce57 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0f379b67064ce5c907182b95f425c7b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef9e836a07c1de04349306317f234cfc = $(`<div id="html_ef9e836a07c1de04349306317f234cfc" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> MERMAID WATERS<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 47.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Exceeding NQS<br>         <b>Region:</b> City         </div>`)[0];
+                popup_0f379b67064ce5c907182b95f425c7b3.setContent(html_ef9e836a07c1de04349306317f234cfc);
+            
+        
+
+        marker_9e37089351d2ad6dba3814dc0e589501.bindPopup(popup_0f379b67064ce5c907182b95f425c7b3)
+        ;
+
+        
+    
+    
+                marker_9e37089351d2ad6dba3814dc0e589501.setIcon(icon_ee45db6f0c60761619ab1c245e95ce57);
+            
+    
+            var marker_b7b0a7e837e317853d43ecbe6e53a0aa = L.marker(
+                [-28.0831267, 153.3585354],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_13e629c3e917dfe1dc1bc463311553bb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_17aae178d40e64c53988ea9599336ed1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f73fcca2a1e70628f8f1978ca48baff8 = $(`<div id="html_f73fcca2a1e70628f8f1978ca48baff8" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> MUDGEERABA<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 86.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> City         </div>`)[0];
+                popup_17aae178d40e64c53988ea9599336ed1.setContent(html_f73fcca2a1e70628f8f1978ca48baff8);
+            
+        
+
+        marker_b7b0a7e837e317853d43ecbe6e53a0aa.bindPopup(popup_17aae178d40e64c53988ea9599336ed1)
+        ;
+
+        
+    
+    
+                marker_b7b0a7e837e317853d43ecbe6e53a0aa.setIcon(icon_13e629c3e917dfe1dc1bc463311553bb);
+            
+    
+            var marker_b1a28d451578449e92504fd604403cd5 = L.marker(
+                [-28.0831267, 153.3585354],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_86375a25f30fd0c818cc4a1c937dd95f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9bd926b66e8eb7beaa9517b2352c248b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de57ea4a25cd7b2b4d708143fbadfb2d = $(`<div id="html_de57ea4a25cd7b2b4d708143fbadfb2d" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> MUDGEERABA<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 58.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> City         </div>`)[0];
+                popup_9bd926b66e8eb7beaa9517b2352c248b.setContent(html_de57ea4a25cd7b2b4d708143fbadfb2d);
+            
+        
+
+        marker_b1a28d451578449e92504fd604403cd5.bindPopup(popup_9bd926b66e8eb7beaa9517b2352c248b)
+        ;
+
+        
+    
+    
+                marker_b1a28d451578449e92504fd604403cd5.setIcon(icon_86375a25f30fd0c818cc4a1c937dd95f);
+            
+    
+            var marker_5c1b83fb73fdef21fe2a1305ee6c5ae5 = L.marker(
+                [-28.040651, 153.3362219],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_5b88ad25940c7c9ebf73caa36ba1b85e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d200c88ee3495188cf0306e5f2e1be64 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_edb12d9896a4b3cf0149d9c822e78354 = $(`<div id="html_edb12d9896a4b3cf0149d9c822e78354" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> WORONGARY<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 75.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> City         </div>`)[0];
+                popup_d200c88ee3495188cf0306e5f2e1be64.setContent(html_edb12d9896a4b3cf0149d9c822e78354);
+            
+        
+
+        marker_5c1b83fb73fdef21fe2a1305ee6c5ae5.bindPopup(popup_d200c88ee3495188cf0306e5f2e1be64)
+        ;
+
+        
+    
+    
+                marker_5c1b83fb73fdef21fe2a1305ee6c5ae5.setIcon(icon_5b88ad25940c7c9ebf73caa36ba1b85e);
+            
+    
+            var marker_79f3e27b1fdf01ebd312c11f0dd4fc5f = L.marker(
+                [-28.0831267, 153.3585354],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_52127700ed7865bad0a96196c76d9d11 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f194df2cdb003593303938ae7ab8ac7b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87768d51a07d48e77fb5482ca75b162d = $(`<div id="html_87768d51a07d48e77fb5482ca75b162d" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> MUDGEERABA<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 62.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> City         </div>`)[0];
+                popup_f194df2cdb003593303938ae7ab8ac7b.setContent(html_87768d51a07d48e77fb5482ca75b162d);
+            
+        
+
+        marker_79f3e27b1fdf01ebd312c11f0dd4fc5f.bindPopup(popup_f194df2cdb003593303938ae7ab8ac7b)
+        ;
+
+        
+    
+    
+                marker_79f3e27b1fdf01ebd312c11f0dd4fc5f.setIcon(icon_52127700ed7865bad0a96196c76d9d11);
+            
+    
+            var marker_d02db3f0a9fc2cca91989edd84ea6fd6 = L.marker(
+                [-27.977545, 153.3124432],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_a33d3eb67109a027954e7119496b2f9b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_710f7d6246d28dd21cd86ab08c5ea351 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20f3d1257865c133b419b752e8bf90c2 = $(`<div id="html_20f3d1257865c133b419b752e8bf90c2" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> NERANG<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 77.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> City         </div>`)[0];
+                popup_710f7d6246d28dd21cd86ab08c5ea351.setContent(html_20f3d1257865c133b419b752e8bf90c2);
+            
+        
+
+        marker_d02db3f0a9fc2cca91989edd84ea6fd6.bindPopup(popup_710f7d6246d28dd21cd86ab08c5ea351)
+        ;
+
+        
+    
+    
+                marker_d02db3f0a9fc2cca91989edd84ea6fd6.setIcon(icon_a33d3eb67109a027954e7119496b2f9b);
+            
+    
+            var marker_221fc6e4e1e0c47ce7069e0a59e32417 = L.marker(
+                [-27.977545, 153.3124432],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_e34a15b8430e29db0114705aac8f80d4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_12e56cdf32e046c8c7a2ca791d0e8de5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96e7378d5d0e4c3c88dc593b5b0cd152 = $(`<div id="html_96e7378d5d0e4c3c88dc593b5b0cd152" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> NERANG<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 64.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> City         </div>`)[0];
+                popup_12e56cdf32e046c8c7a2ca791d0e8de5.setContent(html_96e7378d5d0e4c3c88dc593b5b0cd152);
+            
+        
+
+        marker_221fc6e4e1e0c47ce7069e0a59e32417.bindPopup(popup_12e56cdf32e046c8c7a2ca791d0e8de5)
+        ;
+
+        
+    
+    
+                marker_221fc6e4e1e0c47ce7069e0a59e32417.setIcon(icon_e34a15b8430e29db0114705aac8f80d4);
+            
+    
+            var marker_76ac8579f5de2dcfbef64ca876d17d16 = L.marker(
+                [-27.9018435, 153.305362],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_a5bbe83c762a127d9a159703c402c507 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e83cede752d5913b98495f92d7fc1ea6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01559e7c58a132202ee1a975107e0336 = $(`<div id="html_01559e7c58a132202ee1a975107e0336" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> OXENFORD<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 65.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> City         </div>`)[0];
+                popup_e83cede752d5913b98495f92d7fc1ea6.setContent(html_01559e7c58a132202ee1a975107e0336);
+            
+        
+
+        marker_76ac8579f5de2dcfbef64ca876d17d16.bindPopup(popup_e83cede752d5913b98495f92d7fc1ea6)
+        ;
+
+        
+    
+    
+                marker_76ac8579f5de2dcfbef64ca876d17d16.setIcon(icon_a5bbe83c762a127d9a159703c402c507);
+            
+    
+            var marker_17faa9557ec18568f155f8c2c5b5c9b1 = L.marker(
+                [-28.052458, 153.4218922],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_3d3b2041b37ba6e930c1760b88d5492e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_124848bf76f9624aae641b7824fabd5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d617506c93a7077dda72a132691d024 = $(`<div id="html_7d617506c93a7077dda72a132691d024" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> MERMAID WATERS<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 72.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> City         </div>`)[0];
+                popup_124848bf76f9624aae641b7824fabd5d.setContent(html_7d617506c93a7077dda72a132691d024);
+            
+        
+
+        marker_17faa9557ec18568f155f8c2c5b5c9b1.bindPopup(popup_124848bf76f9624aae641b7824fabd5d)
+        ;
+
+        
+    
+    
+                marker_17faa9557ec18568f155f8c2c5b5c9b1.setIcon(icon_3d3b2041b37ba6e930c1760b88d5492e);
+            
+    
+            var marker_114b060995994c69a731afd1a11ab6c0 = L.marker(
+                [-28.0705635, 153.3916396],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_8c73fdfaaa0c54115e108d34dd4687e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_87792104c05b631d427b913815ac3ef5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dcdc1c49740777df28d68cd83b05f22b = $(`<div id="html_dcdc1c49740777df28d68cd83b05f22b" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> ROBINA<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 100.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> City         </div>`)[0];
+                popup_87792104c05b631d427b913815ac3ef5.setContent(html_dcdc1c49740777df28d68cd83b05f22b);
+            
+        
+
+        marker_114b060995994c69a731afd1a11ab6c0.bindPopup(popup_87792104c05b631d427b913815ac3ef5)
+        ;
+
+        
+    
+    
+                marker_114b060995994c69a731afd1a11ab6c0.setIcon(icon_8c73fdfaaa0c54115e108d34dd4687e5);
+            
+    
+            var marker_0d19f7a526a4ae4f6277c2a62155ae60 = L.marker(
+                [-28.040651, 153.3362219],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_9f2a0c18d606fb66a825f8f974b9286e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d2250f6f52d14c833b7f7a6ef5b86f4e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf3674cec7735a246cac7522e3bc8ed0 = $(`<div id="html_bf3674cec7735a246cac7522e3bc8ed0" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> WORONGARY<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 24.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Working Towards NQS<br>         <b>Region:</b> City         </div>`)[0];
+                popup_d2250f6f52d14c833b7f7a6ef5b86f4e.setContent(html_bf3674cec7735a246cac7522e3bc8ed0);
+            
+        
+
+        marker_0d19f7a526a4ae4f6277c2a62155ae60.bindPopup(popup_d2250f6f52d14c833b7f7a6ef5b86f4e)
+        ;
+
+        
+    
+    
+                marker_0d19f7a526a4ae4f6277c2a62155ae60.setIcon(icon_9f2a0c18d606fb66a825f8f974b9286e);
+            
+    
+            var marker_353c0d409afa56087b56992723606ff7 = L.marker(
+                [-24.3997711, 150.5141867],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_b6166fe734bc527031714364a85b5b78 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_92de99aee3d0623e986b2685c5fc780b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5cc50ffce0b13ea73e5923070471f538 = $(`<div id="html_5cc50ffce0b13ea73e5923070471f538" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> BILOELA<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 42.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_92de99aee3d0623e986b2685c5fc780b.setContent(html_5cc50ffce0b13ea73e5923070471f538);
+            
+        
+
+        marker_353c0d409afa56087b56992723606ff7.bindPopup(popup_92de99aee3d0623e986b2685c5fc780b)
+        ;
+
+        
+    
+    
+                marker_353c0d409afa56087b56992723606ff7.setIcon(icon_b6166fe734bc527031714364a85b5b78);
+            
+    
+            var marker_393526716cf9d7645e437254b5cd7767 = L.marker(
+                [-22.0030414, 148.0432658],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_cc5db1903ed99edecf2b746baab51f06 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_42cee331cf3489ed25ca92f38013eb86 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a13fca38f078d9e48224300448b88ed = $(`<div id="html_3a13fca38f078d9e48224300448b88ed" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> MORANBAH<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 80.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_42cee331cf3489ed25ca92f38013eb86.setContent(html_3a13fca38f078d9e48224300448b88ed);
+            
+        
+
+        marker_393526716cf9d7645e437254b5cd7767.bindPopup(popup_42cee331cf3489ed25ca92f38013eb86)
+        ;
+
+        
+    
+    
+                marker_393526716cf9d7645e437254b5cd7767.setIcon(icon_cc5db1903ed99edecf2b746baab51f06);
+            
+    
+            var marker_47dff789346e7ec0ae721d08e0cc1886 = L.marker(
+                [-22.8390195, 147.1552217],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_26404adc58bbdcc8b364ea2d787ccc43 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1870645daba1aab5c0d68b260cf8fda6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61b0ad73dbbbc2d5bc48211509dde468 = $(`<div id="html_61b0ad73dbbbc2d5bc48211509dde468" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> CLERMONT<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 75.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_1870645daba1aab5c0d68b260cf8fda6.setContent(html_61b0ad73dbbbc2d5bc48211509dde468);
+            
+        
+
+        marker_47dff789346e7ec0ae721d08e0cc1886.bindPopup(popup_1870645daba1aab5c0d68b260cf8fda6)
+        ;
+
+        
+    
+    
+                marker_47dff789346e7ec0ae721d08e0cc1886.setIcon(icon_26404adc58bbdcc8b364ea2d787ccc43);
+            
+    
+            var marker_a73a7499c6b61177a9a949e0f5ab16e9 = L.marker(
+                [-20.012125, 148.2462901],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_b35de8d429b26b6ef161902ad8967a3d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c94df7ba8703ec9b632dc2d5b1b82728 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3609c71d5e9c454ef344557e05511225 = $(`<div id="html_3609c71d5e9c454ef344557e05511225" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> BOWEN<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 63.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_c94df7ba8703ec9b632dc2d5b1b82728.setContent(html_3609c71d5e9c454ef344557e05511225);
+            
+        
+
+        marker_a73a7499c6b61177a9a949e0f5ab16e9.bindPopup(popup_c94df7ba8703ec9b632dc2d5b1b82728)
+        ;
+
+        
+    
+    
+                marker_a73a7499c6b61177a9a949e0f5ab16e9.setIcon(icon_b35de8d429b26b6ef161902ad8967a3d);
+            
+    
+            var marker_bf4eb35476712fae938f2facb5518ac3 = L.marker(
+                [-27.5857312, 153.025206],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_e90b3138a6e573bce3baaa6f01522264 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f5022ad77ad1c561db37a955751fa5cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8a28e8934ceda2f0178694ab9b1ca2a = $(`<div id="html_f8a28e8934ceda2f0178694ab9b1ca2a" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> ACACIA RIDGE<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 75.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Working Towards NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_f5022ad77ad1c561db37a955751fa5cc.setContent(html_f8a28e8934ceda2f0178694ab9b1ca2a);
+            
+        
+
+        marker_bf4eb35476712fae938f2facb5518ac3.bindPopup(popup_f5022ad77ad1c561db37a955751fa5cc)
+        ;
+
+        
+    
+    
+                marker_bf4eb35476712fae938f2facb5518ac3.setIcon(icon_e90b3138a6e573bce3baaa6f01522264);
+            
+    
+            var marker_c41a1ef178c8caec49c510b390cd63f5 = L.marker(
+                [-27.5857312, 153.025206],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_6f645606c2654e44419a8843cb970eb5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aa41049e530611e961725b517f5c1874 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f12ebd77178b575357efe0518301d7d = $(`<div id="html_6f12ebd77178b575357efe0518301d7d" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> ACACIA RIDGE<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 63.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Working Towards NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_aa41049e530611e961725b517f5c1874.setContent(html_6f12ebd77178b575357efe0518301d7d);
+            
+        
+
+        marker_c41a1ef178c8caec49c510b390cd63f5.bindPopup(popup_aa41049e530611e961725b517f5c1874)
+        ;
+
+        
+    
+    
+                marker_c41a1ef178c8caec49c510b390cd63f5.setIcon(icon_6f645606c2654e44419a8843cb970eb5);
+            
+    
+            var marker_28a22218765efc891ea02097d86002a8 = L.marker(
+                [-27.6109526, 153.0315999],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_cf3bfb104f66e2eed5ca4df8f5b00ef3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_01646d26ac577d554e6d363c41a8236d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_149a791e6fb5d884659caf9518ad9dfd = $(`<div id="html_149a791e6fb5d884659caf9518ad9dfd" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> ALGESTER<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 64.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_01646d26ac577d554e6d363c41a8236d.setContent(html_149a791e6fb5d884659caf9518ad9dfd);
+            
+        
+
+        marker_28a22218765efc891ea02097d86002a8.bindPopup(popup_01646d26ac577d554e6d363c41a8236d)
+        ;
+
+        
+    
+    
+                marker_28a22218765efc891ea02097d86002a8.setIcon(icon_cf3bfb104f66e2eed5ca4df8f5b00ef3);
+            
+    
+            var marker_2ecce9d8e8b0865e2f37165fcb9c950e = L.marker(
+                [-27.44306, 152.9827649],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_c61423f0db5b01c3cf91b7deb8360f2f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1910974b528fdd8c5f4ae561b56ccf7e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53c9193ddcca8fb83bc7729060bc4dc4 = $(`<div id="html_53c9193ddcca8fb83bc7729060bc4dc4" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> ASHGROVE<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 120.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_1910974b528fdd8c5f4ae561b56ccf7e.setContent(html_53c9193ddcca8fb83bc7729060bc4dc4);
+            
+        
+
+        marker_2ecce9d8e8b0865e2f37165fcb9c950e.bindPopup(popup_1910974b528fdd8c5f4ae561b56ccf7e)
+        ;
+
+        
+    
+    
+                marker_2ecce9d8e8b0865e2f37165fcb9c950e.setIcon(icon_c61423f0db5b01c3cf91b7deb8360f2f);
+            
+    
+            var marker_a793308ee08c10f970da1d67ae2575c1 = L.marker(
+                [-27.3656925, 153.0169605],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_5dfb4cdd922a6126a712a55bdbc495cb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d81a7d6238e792783c2df87b3f221c0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_528d3fa344074a44793bb446dc84e6a4 = $(`<div id="html_528d3fa344074a44793bb446dc84e6a4" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> ASPLEY<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 74.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Exceeding NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_d81a7d6238e792783c2df87b3f221c0d.setContent(html_528d3fa344074a44793bb446dc84e6a4);
+            
+        
+
+        marker_a793308ee08c10f970da1d67ae2575c1.bindPopup(popup_d81a7d6238e792783c2df87b3f221c0d)
+        ;
+
+        
+    
+    
+                marker_a793308ee08c10f970da1d67ae2575c1.setIcon(icon_5dfb4cdd922a6126a712a55bdbc495cb);
+            
+    
+            var marker_46c9adadbaddc9562f410ca484765e48 = L.marker(
+                [-27.3501466, 153.065654],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_9048525ade67420251a55aef5592c7d6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5d5141e96cfc593fca4df89759cca136 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6fc4856193c4d0cb2f7ee277de81d7f = $(`<div id="html_a6fc4856193c4d0cb2f7ee277de81d7f" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> BOONDALL<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 98.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Working Towards NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_5d5141e96cfc593fca4df89759cca136.setContent(html_a6fc4856193c4d0cb2f7ee277de81d7f);
+            
+        
+
+        marker_46c9adadbaddc9562f410ca484765e48.bindPopup(popup_5d5141e96cfc593fca4df89759cca136)
+        ;
+
+        
+    
+    
+                marker_46c9adadbaddc9562f410ca484765e48.setIcon(icon_9048525ade67420251a55aef5592c7d6);
+            
+    
+            var marker_8fc8c17556d81f2e8c97983c47e7e633 = L.marker(
+                [-27.4491865, 153.0604866],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_f305f95bd39f32a79f0b75f5e1874fd5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_68c90ac1d6f95c098a9d5e986d4d6fd6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c3cf490d61ac804216e0ecbad3c04d7 = $(`<div id="html_5c3cf490d61ac804216e0ecbad3c04d7" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> BULIMBA<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 59.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Exceeding NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_68c90ac1d6f95c098a9d5e986d4d6fd6.setContent(html_5c3cf490d61ac804216e0ecbad3c04d7);
+            
+        
+
+        marker_8fc8c17556d81f2e8c97983c47e7e633.bindPopup(popup_68c90ac1d6f95c098a9d5e986d4d6fd6)
+        ;
+
+        
+    
+    
+                marker_8fc8c17556d81f2e8c97983c47e7e633.setIcon(icon_f305f95bd39f32a79f0b75f5e1874fd5);
+            
+    
+            var marker_dcf092cf575281dc1cb40e3e6acb4806 = L.marker(
+                [-27.5032764, 153.1040678],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_02733b13f78493da740e0bc789845f70 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3f2763018c95d864d16c8552b64f5919 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f282397ef61055ed68d827dcc8a6e1a8 = $(`<div id="html_f282397ef61055ed68d827dcc8a6e1a8" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> CARINDALE<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 57.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_3f2763018c95d864d16c8552b64f5919.setContent(html_f282397ef61055ed68d827dcc8a6e1a8);
+            
+        
+
+        marker_dcf092cf575281dc1cb40e3e6acb4806.bindPopup(popup_3f2763018c95d864d16c8552b64f5919)
+        ;
+
+        
+    
+    
+                marker_dcf092cf575281dc1cb40e3e6acb4806.setIcon(icon_02733b13f78493da740e0bc789845f70);
+            
+    
+            var marker_7bf8f03717f290c5710397cb187c4fc4 = L.marker(
+                [-27.4872985, 153.1000363],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_343f6460a9dfca33bc6f048c0b373a14 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0e328210be664a6a27bcef04b91a2e9b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16f3ea3dc32801684472c9895079d5f4 = $(`<div id="html_16f3ea3dc32801684472c9895079d5f4" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> CARINA<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 52.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_0e328210be664a6a27bcef04b91a2e9b.setContent(html_16f3ea3dc32801684472c9895079d5f4);
+            
+        
+
+        marker_7bf8f03717f290c5710397cb187c4fc4.bindPopup(popup_0e328210be664a6a27bcef04b91a2e9b)
+        ;
+
+        
+    
+    
+                marker_7bf8f03717f290c5710397cb187c4fc4.setIcon(icon_343f6460a9dfca33bc6f048c0b373a14);
+            
+    
+            var marker_7525c642f207871fdf0764f96ba0f87a = L.marker(
+                [-27.4182154, 153.0578224],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_b69c4d318fc3dccc7b6ace36cdb0e3e9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_728fa27ccfce9a4c0640510ae0e6b9d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91980f576fbd2885aa7f26d2e65fa79b = $(`<div id="html_91980f576fbd2885aa7f26d2e65fa79b" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> CLAYFIELD<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 57.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_728fa27ccfce9a4c0640510ae0e6b9d9.setContent(html_91980f576fbd2885aa7f26d2e65fa79b);
+            
+        
+
+        marker_7525c642f207871fdf0764f96ba0f87a.bindPopup(popup_728fa27ccfce9a4c0640510ae0e6b9d9)
+        ;
+
+        
+    
+    
+                marker_7525c642f207871fdf0764f96ba0f87a.setIcon(icon_b69c4d318fc3dccc7b6ace36cdb0e3e9);
+            
+    
+            var marker_7e5b8cd0791ae08b07ca1226d0d5606c = L.marker(
+                [-27.4962028, 153.0595973],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_4d874e55f03a0af73461bb979990c99b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_92f32e762902e93cefd53ab048a969d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e74a82caf5393b4f5c5166f09b90dba8 = $(`<div id="html_e74a82caf5393b4f5c5166f09b90dba8" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> COORPAROO<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 62.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_92f32e762902e93cefd53ab048a969d5.setContent(html_e74a82caf5393b4f5c5166f09b90dba8);
+            
+        
+
+        marker_7e5b8cd0791ae08b07ca1226d0d5606c.bindPopup(popup_92f32e762902e93cefd53ab048a969d5)
+        ;
+
+        
+    
+    
+                marker_7e5b8cd0791ae08b07ca1226d0d5606c.setIcon(icon_4d874e55f03a0af73461bb979990c99b);
+            
+    
+            var marker_f35e4349672bcbbcba5694338e2ff5cb = L.marker(
+                [-27.4263185, 152.9743221],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_85d166d60d834978c7e617adb1ed6ecf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3c2abf2bd5730119882285641c2f0173 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_853cb6ef52bfda888abb1e2fd382171d = $(`<div id="html_853cb6ef52bfda888abb1e2fd382171d" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> ENOGGERA<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 63.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_3c2abf2bd5730119882285641c2f0173.setContent(html_853cb6ef52bfda888abb1e2fd382171d);
+            
+        
+
+        marker_f35e4349672bcbbcba5694338e2ff5cb.bindPopup(popup_3c2abf2bd5730119882285641c2f0173)
+        ;
+
+        
+    
+    
+                marker_f35e4349672bcbbcba5694338e2ff5cb.setIcon(icon_85d166d60d834978c7e617adb1ed6ecf);
+            
+    
+            var marker_ad52858d9e195a6a1251174bf484fba1 = L.marker(
+                [-27.3982798, 152.9875259],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_1377729fb3e2c33e5c4224614e35b756 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_64900724df866c2d55e077f19286c671 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de8031cc979a883dab19f66c7bc4beec = $(`<div id="html_de8031cc979a883dab19f66c7bc4beec" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> EVERTON PARK<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 80.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Excellent<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_64900724df866c2d55e077f19286c671.setContent(html_de8031cc979a883dab19f66c7bc4beec);
+            
+        
+
+        marker_ad52858d9e195a6a1251174bf484fba1.bindPopup(popup_64900724df866c2d55e077f19286c671)
+        ;
+
+        
+    
+    
+                marker_ad52858d9e195a6a1251174bf484fba1.setIcon(icon_1377729fb3e2c33e5c4224614e35b756);
+            
+    
+            var marker_bf97f5876f98e5bac7aef87502c3bc80 = L.marker(
+                [-27.4572735, 153.0362663],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_a72254bae6c2ae33c111c67cd157735f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_feab711b1f8d1b747fbd1132051c316e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eec3b718a6ff7b3b4346bc4875753e1e = $(`<div id="html_eec3b718a6ff7b3b4346bc4875753e1e" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> FORTITUDE VALLEY<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 67.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Exceeding NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_feab711b1f8d1b747fbd1132051c316e.setContent(html_eec3b718a6ff7b3b4346bc4875753e1e);
+            
+        
+
+        marker_bf97f5876f98e5bac7aef87502c3bc80.bindPopup(popup_feab711b1f8d1b747fbd1132051c316e)
+        ;
+
+        
+    
+    
+                marker_bf97f5876f98e5bac7aef87502c3bc80.setIcon(icon_a72254bae6c2ae33c111c67cd157735f);
+            
+    
+            var marker_997a6fb86ed3ac6061703a06d55751a7 = L.marker(
+                [-27.5214645, 152.9814787],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_eca40fcfcd6b32cb30624904614907d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d43152962bb3df61c3d02ea3664d0234 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0213d314a288d98f2489bcad4f876c3 = $(`<div id="html_b0213d314a288d98f2489bcad4f876c3" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> GRACEVILLE<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 44.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_d43152962bb3df61c3d02ea3664d0234.setContent(html_b0213d314a288d98f2489bcad4f876c3);
+            
+        
+
+        marker_997a6fb86ed3ac6061703a06d55751a7.bindPopup(popup_d43152962bb3df61c3d02ea3664d0234)
+        ;
+
+        
+    
+    
+                marker_997a6fb86ed3ac6061703a06d55751a7.setIcon(icon_eca40fcfcd6b32cb30624904614907d3);
+            
+    
+            var marker_5745a8004cd85d4a9d22e177185d85fb = L.marker(
+                [-27.519475, 153.0732597],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_3a27f51b64cd8045fdd5e1bd1a8fbb4d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_15632faf874f767869c11532ca850558 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed199543d35d233c16917348fbeff9f9 = $(`<div id="html_ed199543d35d233c16917348fbeff9f9" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> HOLLAND PARK<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 65.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_15632faf874f767869c11532ca850558.setContent(html_ed199543d35d233c16917348fbeff9f9);
+            
+        
+
+        marker_5745a8004cd85d4a9d22e177185d85fb.bindPopup(popup_15632faf874f767869c11532ca850558)
+        ;
+
+        
+    
+    
+                marker_5745a8004cd85d4a9d22e177185d85fb.setIcon(icon_3a27f51b64cd8045fdd5e1bd1a8fbb4d);
+            
+    
+            var marker_69e48d0edac68cb413e792e782ad7e40 = L.marker(
+                [-27.591291, 152.9682672],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_43e9db2a44935935ec4c137a771d0224 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_03854e84e47b52d329ba24862717d8ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_180db502bb4334fc11a17a5cad8479ee = $(`<div id="html_180db502bb4334fc11a17a5cad8479ee" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> INALA<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 75.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Working Towards NQS<br>         <b>Region:</b> City         </div>`)[0];
+                popup_03854e84e47b52d329ba24862717d8ec.setContent(html_180db502bb4334fc11a17a5cad8479ee);
+            
+        
+
+        marker_69e48d0edac68cb413e792e782ad7e40.bindPopup(popup_03854e84e47b52d329ba24862717d8ec)
+        ;
+
+        
+    
+    
+                marker_69e48d0edac68cb413e792e782ad7e40.setIcon(icon_43e9db2a44935935ec4c137a771d0224);
+            
+    
+            var marker_db0ff79cc3cb62f0698f7e9f3d461b89 = L.marker(
+                [-27.591291, 152.9682672],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_d670ef390c161713a4c43b3fdf90000e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_11f4a6521e74678eefd2f4fb5bfcbca2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae98a9150c19adc68b8f88772aa57fa4 = $(`<div id="html_ae98a9150c19adc68b8f88772aa57fa4" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> INALA<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 64.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> City         </div>`)[0];
+                popup_11f4a6521e74678eefd2f4fb5bfcbca2.setContent(html_ae98a9150c19adc68b8f88772aa57fa4);
+            
+        
+
+        marker_db0ff79cc3cb62f0698f7e9f3d461b89.bindPopup(popup_11f4a6521e74678eefd2f4fb5bfcbca2)
+        ;
+
+        
+    
+    
+                marker_db0ff79cc3cb62f0698f7e9f3d461b89.setIcon(icon_d670ef390c161713a4c43b3fdf90000e);
+            
+    
+            var marker_7cded9d20f7699424076104b5ae4ed30 = L.marker(
+                [-27.5065612, 152.9822777],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_650891240de0b377a58af1885794c4dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5532ee5dce1d04f1bf2bc7280eac1c6c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_083e4b367c320e3f4bbb4d7582c50a10 = $(`<div id="html_083e4b367c320e3f4bbb4d7582c50a10" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> INDOOROOPILLY<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 106.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_5532ee5dce1d04f1bf2bc7280eac1c6c.setContent(html_083e4b367c320e3f4bbb4d7582c50a10);
+            
+        
+
+        marker_7cded9d20f7699424076104b5ae4ed30.bindPopup(popup_5532ee5dce1d04f1bf2bc7280eac1c6c)
+        ;
+
+        
+    
+    
+                marker_7cded9d20f7699424076104b5ae4ed30.setIcon(icon_650891240de0b377a58af1885794c4dd);
+            
+    
+            var marker_fdefc18a7e672b92aa89a0edb5b78e22 = L.marker(
+                [-27.5353665, 152.9378593],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_757ae48e40e415d5d5e66c593de189c8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_51107aec8e6a25054dc1ab7186fd545f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5dc6f23ab24f61a57a196543e16584d = $(`<div id="html_f5dc6f23ab24f61a57a196543e16584d" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> JINDALEE<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 75.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> City         </div>`)[0];
+                popup_51107aec8e6a25054dc1ab7186fd545f.setContent(html_f5dc6f23ab24f61a57a196543e16584d);
+            
+        
+
+        marker_fdefc18a7e672b92aa89a0edb5b78e22.bindPopup(popup_51107aec8e6a25054dc1ab7186fd545f)
+        ;
+
+        
+    
+    
+                marker_fdefc18a7e672b92aa89a0edb5b78e22.setIcon(icon_757ae48e40e415d5d5e66c593de189c8);
+            
+    
+            var marker_d7e73b6d4d087bd36c94643c2cdb62a0 = L.marker(
+                [-27.4496625, 153.0237294],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_d2785fe82fa4231e184772537422d330 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_67266115635c245fb89f3073f705287d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_92d4c29e6ab6e17884e4d8e813abaa2b = $(`<div id="html_92d4c29e6ab6e17884e4d8e813abaa2b" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> HERSTON<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 44.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_67266115635c245fb89f3073f705287d.setContent(html_92d4c29e6ab6e17884e4d8e813abaa2b);
+            
+        
+
+        marker_d7e73b6d4d087bd36c94643c2cdb62a0.bindPopup(popup_67266115635c245fb89f3073f705287d)
+        ;
+
+        
+    
+    
+                marker_d7e73b6d4d087bd36c94643c2cdb62a0.setIcon(icon_d2785fe82fa4231e184772537422d330);
+            
+    
+            var marker_3da535471914a47cd91f057e3456c4f9 = L.marker(
+                [-27.515645, 152.937661],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_6c83bac2e3990d19f0c58427fdbc0e69 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2b24b4e7b25b7ba60b74f9d88fe3e8f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b6f7aa40fcbfe5b27df0a8fabec857e = $(`<div id="html_9b6f7aa40fcbfe5b27df0a8fabec857e" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> KENMORE<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 75.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_2b24b4e7b25b7ba60b74f9d88fe3e8f3.setContent(html_9b6f7aa40fcbfe5b27df0a8fabec857e);
+            
+        
+
+        marker_3da535471914a47cd91f057e3456c4f9.bindPopup(popup_2b24b4e7b25b7ba60b74f9d88fe3e8f3)
+        ;
+
+        
+    
+    
+                marker_3da535471914a47cd91f057e3456c4f9.setIcon(icon_6c83bac2e3990d19f0c58427fdbc0e69);
+            
+    
+            var marker_6a16143236ef995064ba9e7ef89415fd = L.marker(
+                [-27.3819605, 152.9932246],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_1a57509826e976cc1f6b32004a60eb86 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_619d4f011d23a0d27e7011c8aba54f8b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5db86c0e29d5907217c787e7be6c6b4 = $(`<div id="html_e5db86c0e29d5907217c787e7be6c6b4" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> MCDOWALL<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 75.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Exceeding NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_619d4f011d23a0d27e7011c8aba54f8b.setContent(html_e5db86c0e29d5907217c787e7be6c6b4);
+            
+        
+
+        marker_6a16143236ef995064ba9e7ef89415fd.bindPopup(popup_619d4f011d23a0d27e7011c8aba54f8b)
+        ;
+
+        
+    
+    
+                marker_6a16143236ef995064ba9e7ef89415fd.setIcon(icon_1a57509826e976cc1f6b32004a60eb86);
+            
+    
+            var marker_056f322c651c7a3931ad949471b12b13 = L.marker(
+                [-27.453347, 153.1840865],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_54096091461c030f7a38ffba3a551497 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_41cb86939040a236f93490388a6a9780 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2932a42e1e9a8c29f0255e0b9ed17024 = $(`<div id="html_2932a42e1e9a8c29f0255e0b9ed17024" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> MANLY<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 75.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_41cb86939040a236f93490388a6a9780.setContent(html_2932a42e1e9a8c29f0255e0b9ed17024);
+            
+        
+
+        marker_056f322c651c7a3931ad949471b12b13.bindPopup(popup_41cb86939040a236f93490388a6a9780)
+        ;
+
+        
+    
+    
+                marker_056f322c651c7a3931ad949471b12b13.setIcon(icon_54096091461c030f7a38ffba3a551497);
+            
+    
+            var marker_fed8bbcd5e3bea7240a400fe8e0d2f7c = L.marker(
+                [-27.4619537, 153.1692817],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_765394ccf2c553ff19b0a29b7615b0d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_44c035c838789e569a6aeeb2f3f1d569 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79bb9c65ad90c9b695719fde5833e898 = $(`<div id="html_79bb9c65ad90c9b695719fde5833e898" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> MANLY WEST<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 57.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Working Towards NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_44c035c838789e569a6aeeb2f3f1d569.setContent(html_79bb9c65ad90c9b695719fde5833e898);
+            
+        
+
+        marker_fed8bbcd5e3bea7240a400fe8e0d2f7c.bindPopup(popup_44c035c838789e569a6aeeb2f3f1d569)
+        ;
+
+        
+    
+    
+                marker_fed8bbcd5e3bea7240a400fe8e0d2f7c.setIcon(icon_765394ccf2c553ff19b0a29b7615b0d5);
+            
+    
+            var marker_478ca1d80883c5e7a5a27c6edac8db49 = L.marker(
+                [-27.4619537, 153.1692817],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_7e54f2e1c5953bcb7eb3878419e40813 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_19f7c44a148f8e02f6d8ed667885fbe7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b9df78f583afac3e408eef9faaaec9e = $(`<div id="html_1b9df78f583afac3e408eef9faaaec9e" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> MANLY WEST<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 74.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_19f7c44a148f8e02f6d8ed667885fbe7.setContent(html_1b9df78f583afac3e408eef9faaaec9e);
+            
+        
+
+        marker_478ca1d80883c5e7a5a27c6edac8db49.bindPopup(popup_19f7c44a148f8e02f6d8ed667885fbe7)
+        ;
+
+        
+    
+    
+                marker_478ca1d80883c5e7a5a27c6edac8db49.setIcon(icon_7e54f2e1c5953bcb7eb3878419e40813);
+            
+    
+            var marker_9c0b1781846cfa34ec08f8944afce914 = L.marker(
+                [-27.5328955, 153.103156],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_f05ad2374d4a8ff87962dae807a6ffda = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c33e840f1823fdb896222e33f7d59253 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb4b91be80573f8e4f86194c650f61f0 = $(`<div id="html_bb4b91be80573f8e4f86194c650f61f0" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> MANSFIELD<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 88.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_c33e840f1823fdb896222e33f7d59253.setContent(html_bb4b91be80573f8e4f86194c650f61f0);
+            
+        
+
+        marker_9c0b1781846cfa34ec08f8944afce914.bindPopup(popup_c33e840f1823fdb896222e33f7d59253)
+        ;
+
+        
+    
+    
+                marker_9c0b1781846cfa34ec08f8944afce914.setIcon(icon_f05ad2374d4a8ff87962dae807a6ffda);
+            
+    
+            var marker_8af30d34e7287fa1c5c75b2e429510aa = L.marker(
+                [-27.4116762, 152.9759985],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_0c9e6d6827b20d3f92eb773521d78947 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_81824a267572a4b3f0d77008116aecf8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5c3910b674710b5b2c50e4f120a331a = $(`<div id="html_e5c3910b674710b5b2c50e4f120a331a" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> MITCHELTON<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 90.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_81824a267572a4b3f0d77008116aecf8.setContent(html_e5c3910b674710b5b2c50e4f120a331a);
+            
+        
+
+        marker_8af30d34e7287fa1c5c75b2e429510aa.bindPopup(popup_81824a267572a4b3f0d77008116aecf8)
+        ;
+
+        
+    
+    
+                marker_8af30d34e7287fa1c5c75b2e429510aa.setIcon(icon_0c9e6d6827b20d3f92eb773521d78947);
+            
+    
+            var marker_cc9de88e8e80121ba7882ca6ffce2a27 = L.marker(
+                [-27.5357999, 153.0201543],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_accbd178cf50dfaa1ae365a0d6e4d977 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8f5050d36b492f158c7d1c2b193f28f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14d63631611aeac10c8a24ec1201a451 = $(`<div id="html_14d63631611aeac10c8a24ec1201a451" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> MOOROOKA<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 34.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_8f5050d36b492f158c7d1c2b193f28f9.setContent(html_14d63631611aeac10c8a24ec1201a451);
+            
+        
+
+        marker_cc9de88e8e80121ba7882ca6ffce2a27.bindPopup(popup_8f5050d36b492f158c7d1c2b193f28f9)
+        ;
+
+        
+    
+    
+                marker_cc9de88e8e80121ba7882ca6ffce2a27.setIcon(icon_accbd178cf50dfaa1ae365a0d6e4d977);
+            
+    
+            var marker_3811756c81670bf151685d0fc7dcef4b = L.marker(
+                [-27.5357999, 153.0201543],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_f5f04ea13c9c523a86c955af7018aa93 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bf0a9b266f7bde8facced65248cf85ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae0ef2aaa11d8b2de09541816f0e89a7 = $(`<div id="html_ae0ef2aaa11d8b2de09541816f0e89a7" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> MOOROOKA<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 64.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_bf0a9b266f7bde8facced65248cf85ba.setContent(html_ae0ef2aaa11d8b2de09541816f0e89a7);
+            
+        
+
+        marker_3811756c81670bf151685d0fc7dcef4b.bindPopup(popup_bf0a9b266f7bde8facced65248cf85ba)
+        ;
+
+        
+    
+    
+                marker_3811756c81670bf151685d0fc7dcef4b.setIcon(icon_f5f04ea13c9c523a86c955af7018aa93);
+            
+    
+            var marker_72a5df289aaba4615cbf2069b65ce722 = L.marker(
+                [-27.4615955, 153.0754455],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_c96d9eb512a4e0691a0a41d15a1384a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_718c5f2bbeb8d0b64a7a12c5ac22fd11 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35f1e0522027aca343edad12bea7aacc = $(`<div id="html_35f1e0522027aca343edad12bea7aacc" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> MORNINGSIDE<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 85.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_718c5f2bbeb8d0b64a7a12c5ac22fd11.setContent(html_35f1e0522027aca343edad12bea7aacc);
+            
+        
+
+        marker_72a5df289aaba4615cbf2069b65ce722.bindPopup(popup_718c5f2bbeb8d0b64a7a12c5ac22fd11)
+        ;
+
+        
+    
+    
+                marker_72a5df289aaba4615cbf2069b65ce722.setIcon(icon_c96d9eb512a4e0691a0a41d15a1384a7);
+            
+    
+            var marker_bf2feff3bede981e72fb51e43f0d1a43 = L.marker(
+                [-27.5386205, 153.0729375],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_be584c30e8808e0f81fccf0a4fe8bcb9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_765683cc53c94ae0cc59f0747c89645e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca9a0b5200c544041a9a2ab79bf431cb = $(`<div id="html_ca9a0b5200c544041a9a2ab79bf431cb" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> MOUNT GRAVATT<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 75.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_765683cc53c94ae0cc59f0747c89645e.setContent(html_ca9a0b5200c544041a9a2ab79bf431cb);
+            
+        
+
+        marker_bf2feff3bede981e72fb51e43f0d1a43.bindPopup(popup_765683cc53c94ae0cc59f0747c89645e)
+        ;
+
+        
+    
+    
+                marker_bf2feff3bede981e72fb51e43f0d1a43.setIcon(icon_be584c30e8808e0f81fccf0a4fe8bcb9);
+            
+    
+            var marker_6ee0611265c8b76556c080e6cc44ec46 = L.marker(
+                [-27.5386205, 153.0729375],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_b81e88e17e5861965312148106462060 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_61c8bc70389875ddb54be2fb80b80275 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f415727e3cc2cf9dc6c71994702582c = $(`<div id="html_2f415727e3cc2cf9dc6c71994702582c" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> MOUNT GRAVATT<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 58.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_61c8bc70389875ddb54be2fb80b80275.setContent(html_2f415727e3cc2cf9dc6c71994702582c);
+            
+        
+
+        marker_6ee0611265c8b76556c080e6cc44ec46.bindPopup(popup_61c8bc70389875ddb54be2fb80b80275)
+        ;
+
+        
+    
+    
+                marker_6ee0611265c8b76556c080e6cc44ec46.setIcon(icon_b81e88e17e5861965312148106462060);
+            
+    
+            var marker_3ac7a258b0334efd6e0661f7d0791ec8 = L.marker(
+                [-27.5386205, 153.0729375],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_28f0e124af24384774048ada863fba69 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_84ab982baf9810e79c87ae0ac7f72951 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b523574d55447aa3c019a05b15eb423 = $(`<div id="html_7b523574d55447aa3c019a05b15eb423" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> MOUNT GRAVATT<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 180.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Working Towards NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_84ab982baf9810e79c87ae0ac7f72951.setContent(html_7b523574d55447aa3c019a05b15eb423);
+            
+        
+
+        marker_3ac7a258b0334efd6e0661f7d0791ec8.bindPopup(popup_84ab982baf9810e79c87ae0ac7f72951)
+        ;
+
+        
+    
+    
+                marker_3ac7a258b0334efd6e0661f7d0791ec8.setIcon(icon_28f0e124af24384774048ada863fba69);
+            
+    
+            var marker_bfcdba93357a064576c1327ca94642a8 = L.marker(
+                [-27.5386205, 153.0729375],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_ec5f0906a9eb5b874e225d2839b5f4ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5ff8be46c2ff952ce2d47adb40a36d48 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b42fcc3d71f36773a7001616658e88c = $(`<div id="html_2b42fcc3d71f36773a7001616658e88c" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> MOUNT GRAVATT<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 35.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_5ff8be46c2ff952ce2d47adb40a36d48.setContent(html_2b42fcc3d71f36773a7001616658e88c);
+            
+        
+
+        marker_bfcdba93357a064576c1327ca94642a8.bindPopup(popup_5ff8be46c2ff952ce2d47adb40a36d48)
+        ;
+
+        
+    
+    
+                marker_bfcdba93357a064576c1327ca94642a8.setIcon(icon_ec5f0906a9eb5b874e225d2839b5f4ae);
+            
+    
+            var marker_69b3a9a40d52fed01d8f2b1a215624aa = L.marker(
+                [-27.548511, 153.0523165],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_d82fa8d5bbb3bde23b560e554e0f2237 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_acb0fb6b4596dc2d537fdce45507e71e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42f47dc08456d9fa4ef561bfa590fa52 = $(`<div id="html_42f47dc08456d9fa4ef561bfa590fa52" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> NATHAN<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 60.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_acb0fb6b4596dc2d537fdce45507e71e.setContent(html_42f47dc08456d9fa4ef561bfa590fa52);
+            
+        
+
+        marker_69b3a9a40d52fed01d8f2b1a215624aa.bindPopup(popup_acb0fb6b4596dc2d537fdce45507e71e)
+        ;
+
+        
+    
+    
+                marker_69b3a9a40d52fed01d8f2b1a215624aa.setIcon(icon_d82fa8d5bbb3bde23b560e554e0f2237);
+            
+    
+            var marker_fd675b860bacdc6239987dd4756f571d = L.marker(
+                [-27.434827, 153.0073505],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_6b699b335e49b9bbd0088e8e61145b4f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_03ac420feeda926f135b25dabf687ad9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b2a8bd6fbcaecb27e46c40bd836d2bd = $(`<div id="html_1b2a8bd6fbcaecb27e46c40bd836d2bd" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> NEWMARKET<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 57.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_03ac420feeda926f135b25dabf687ad9.setContent(html_1b2a8bd6fbcaecb27e46c40bd836d2bd);
+            
+        
+
+        marker_fd675b860bacdc6239987dd4756f571d.bindPopup(popup_03ac420feeda926f135b25dabf687ad9)
+        ;
+
+        
+    
+    
+                marker_fd675b860bacdc6239987dd4756f571d.setIcon(icon_6b699b335e49b9bbd0088e8e61145b4f);
+            
+    
+            var marker_231da44a37e1a9dcaa6a7becc0488e28 = L.marker(
+                [-27.434827, 153.0073505],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_b8ecfbe9398d378d6bc57ac4d0e96b63 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_61bc3cb587b86f85824aed400ca60b51 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_670393ac508c07daaabe760b28e02ff7 = $(`<div id="html_670393ac508c07daaabe760b28e02ff7" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> NEWMARKET<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 75.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_61bc3cb587b86f85824aed400ca60b51.setContent(html_670393ac508c07daaabe760b28e02ff7);
+            
+        
+
+        marker_231da44a37e1a9dcaa6a7becc0488e28.bindPopup(popup_61bc3cb587b86f85824aed400ca60b51)
+        ;
+
+        
+    
+    
+                marker_231da44a37e1a9dcaa6a7becc0488e28.setIcon(icon_b8ecfbe9398d378d6bc57ac4d0e96b63);
+            
+    
+            var marker_8856cfa9a43bed65764f47ffa8904287 = L.marker(
+                [-27.3929532, 153.0692217],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_7c3b3c7254c65f24393b65f7e209cf6e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d5ed3b9db0d266d51eae0ad4052db581 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e9425bf4fc4bbac9d1369af01d28dc38 = $(`<div id="html_e9425bf4fc4bbac9d1369af01d28dc38" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> NORTHGATE<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 52.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_d5ed3b9db0d266d51eae0ad4052db581.setContent(html_e9425bf4fc4bbac9d1369af01d28dc38);
+            
+        
+
+        marker_8856cfa9a43bed65764f47ffa8904287.bindPopup(popup_d5ed3b9db0d266d51eae0ad4052db581)
+        ;
+
+        
+    
+    
+                marker_8856cfa9a43bed65764f47ffa8904287.setIcon(icon_7c3b3c7254c65f24393b65f7e209cf6e);
+            
+    
+            var marker_284c42b62fba189f0b27de8f69194217 = L.marker(
+                [-27.452228, 153.0009154],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_080a66ac4851f81b21577a76d6f47a79 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "gray",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e653b591dbb060dfa5f62887f7a44ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e42965828db9e6b30ac07e2c95e4f1ea = $(`<div id="html_e42965828db9e6b30ac07e2c95e4f1ea" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> RED HILL<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 53.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Excellent<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_8e653b591dbb060dfa5f62887f7a44ef.setContent(html_e42965828db9e6b30ac07e2c95e4f1ea);
+            
+        
+
+        marker_284c42b62fba189f0b27de8f69194217.bindPopup(popup_8e653b591dbb060dfa5f62887f7a44ef)
+        ;
+
+        
+    
+    
+                marker_284c42b62fba189f0b27de8f69194217.setIcon(icon_080a66ac4851f81b21577a76d6f47a79);
+            
+    
+            var marker_c0f44e8ee437e9ce3ac6d7e2d4b26a4b = L.marker(
+                [-27.5619845, 152.9087907],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_87b4099df234b3eeeb1d9a2c90304771 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8971dfac525f0389665111feed6712b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab1edb2e243fb3860530c998bb37e07a = $(`<div id="html_ab1edb2e243fb3860530c998bb37e07a" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> RIVERHILLS<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 52.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> City         </div>`)[0];
+                popup_8971dfac525f0389665111feed6712b8.setContent(html_ab1edb2e243fb3860530c998bb37e07a);
+            
+        
+
+        marker_c0f44e8ee437e9ce3ac6d7e2d4b26a4b.bindPopup(popup_8971dfac525f0389665111feed6712b8)
+        ;
+
+        
+    
+    
+                marker_c0f44e8ee437e9ce3ac6d7e2d4b26a4b.setIcon(icon_87b4099df234b3eeeb1d9a2c90304771);
+            
+    
+            var marker_0d9c08d624ab962fe2f88b5922901fe9 = L.marker(
+                [-27.5925791, 153.0688031],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_4fed77376ab4f7870c81eeeb862221f8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1966b2fed4542beddfb56c17fa9aec4c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2185d7ab14580fc368e1e93e44566282 = $(`<div id="html_2185d7ab14580fc368e1e93e44566282" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> RUNCORN<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 86.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_1966b2fed4542beddfb56c17fa9aec4c.setContent(html_2185d7ab14580fc368e1e93e44566282);
+            
+        
+
+        marker_0d9c08d624ab962fe2f88b5922901fe9.bindPopup(popup_1966b2fed4542beddfb56c17fa9aec4c)
+        ;
+
+        
+    
+    
+                marker_0d9c08d624ab962fe2f88b5922901fe9.setIcon(icon_4fed77376ab4f7870c81eeeb862221f8);
+            
+    
+            var marker_6b1618296965e48b5afa282f80f8375e = L.marker(
+                [-27.4989435, 153.0064984],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_80515737d0f2167964ff07d6486bfd19 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0efcfdc8754bf4fd31d1a5c97596f815 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d1387dcdf67d3df355db65feaaa987b = $(`<div id="html_3d1387dcdf67d3df355db65feaaa987b" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> ST LUCIA<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 65.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_0efcfdc8754bf4fd31d1a5c97596f815.setContent(html_3d1387dcdf67d3df355db65feaaa987b);
+            
+        
+
+        marker_6b1618296965e48b5afa282f80f8375e.bindPopup(popup_0efcfdc8754bf4fd31d1a5c97596f815)
+        ;
+
+        
+    
+    
+                marker_6b1618296965e48b5afa282f80f8375e.setIcon(icon_80515737d0f2167964ff07d6486bfd19);
+            
+    
+            var marker_568dd3e924a660a3ac4ea16f76928fa3 = L.marker(
+                [-27.3222807, 153.0695096],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_167b9fcba5d349964ac66266c1e47294 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f2f8916137da902a6bde507b1d027bfa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93a3d96a3ca825a2a3d8556bf1c3ed32 = $(`<div id="html_93a3d96a3ca825a2a3d8556bf1c3ed32" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> SANDGATE<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 54.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Exceeding NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_f2f8916137da902a6bde507b1d027bfa.setContent(html_93a3d96a3ca825a2a3d8556bf1c3ed32);
+            
+        
+
+        marker_568dd3e924a660a3ac4ea16f76928fa3.bindPopup(popup_f2f8916137da902a6bde507b1d027bfa)
+        ;
+
+        
+    
+    
+                marker_568dd3e924a660a3ac4ea16f76928fa3.setIcon(icon_167b9fcba5d349964ac66266c1e47294);
+            
+    
+            var marker_cec08c1f133b892f07cdb4f151f3796a = L.marker(
+                [-27.3222807, 153.0695096],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_06d0734a872eb13c1b1190c4c4f32bc7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bafdde1a39471cc89a6602aa0615e6e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7ffc920aafbabd999a3936575bde3a6 = $(`<div id="html_d7ffc920aafbabd999a3936575bde3a6" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> SANDGATE<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 54.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_bafdde1a39471cc89a6602aa0615e6e5.setContent(html_d7ffc920aafbabd999a3936575bde3a6);
+            
+        
+
+        marker_cec08c1f133b892f07cdb4f151f3796a.bindPopup(popup_bafdde1a39471cc89a6602aa0615e6e5)
+        ;
+
+        
+    
+    
+                marker_cec08c1f133b892f07cdb4f151f3796a.setIcon(icon_06d0734a872eb13c1b1190c4c4f32bc7);
+            
+    
+            var marker_1e9047754d5c0c4084aaf1cef5341a7c = L.marker(
+                [-27.530861, 152.9826097],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_7a29e4c181eea6fc2dfa7ca4c1ac5fa0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a04c90cc45811fdc00def1a60ac72a1c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e0f1bd52b18f46a935cf254ad094249e = $(`<div id="html_e0f1bd52b18f46a935cf254ad094249e" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> SHERWOOD<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 126.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_a04c90cc45811fdc00def1a60ac72a1c.setContent(html_e0f1bd52b18f46a935cf254ad094249e);
+            
+        
+
+        marker_1e9047754d5c0c4084aaf1cef5341a7c.bindPopup(popup_a04c90cc45811fdc00def1a60ac72a1c)
+        ;
+
+        
+    
+    
+                marker_1e9047754d5c0c4084aaf1cef5341a7c.setIcon(icon_7a29e4c181eea6fc2dfa7ca4c1ac5fa0);
+            
+    
+            var marker_c16846b027fd3bf3c851b14505cdb111 = L.marker(
+                [-27.479264, 153.0200774],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_23c4e233fc5ccadb09ad66e1cb24212d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a39a0a7a8bd651aad4b52fc6297d7a5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2074364796e0b92313177f1a37febb5 = $(`<div id="html_c2074364796e0b92313177f1a37febb5" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> SOUTH BRISBANE<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 50.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_a39a0a7a8bd651aad4b52fc6297d7a5d.setContent(html_c2074364796e0b92313177f1a37febb5);
+            
+        
+
+        marker_c16846b027fd3bf3c851b14505cdb111.bindPopup(popup_a39a0a7a8bd651aad4b52fc6297d7a5d)
+        ;
+
+        
+    
+    
+                marker_c16846b027fd3bf3c851b14505cdb111.setIcon(icon_23c4e233fc5ccadb09ad66e1cb24212d);
+            
+    
+            var marker_6cca47f9755dd3d44e089bd6be42c0bc = L.marker(
+                [-27.4614416, 153.0257338],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_4ea33656ce2d242632405cfa7170567f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4ec3ad5dca26bb506592c3872d494b46 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_061e3046d17a638f2ad5b0ea25b84c0f = $(`<div id="html_061e3046d17a638f2ad5b0ea25b84c0f" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> SPRING HILL<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 59.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_4ec3ad5dca26bb506592c3872d494b46.setContent(html_061e3046d17a638f2ad5b0ea25b84c0f);
+            
+        
+
+        marker_6cca47f9755dd3d44e089bd6be42c0bc.bindPopup(popup_4ec3ad5dca26bb506592c3872d494b46)
+        ;
+
+        
+    
+    
+                marker_6cca47f9755dd3d44e089bd6be42c0bc.setIcon(icon_4ea33656ce2d242632405cfa7170567f);
+            
+    
+            var marker_39e1f972e1449f282b7c612fc7f305f6 = L.marker(
+                [-27.4614416, 153.0257338],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_219cd30f74ba8e83d2e039fb3e37535d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_39b83b63bbd45a83380c5a903ef3b83a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b178bb05e66d516685e53f2198717f6f = $(`<div id="html_b178bb05e66d516685e53f2198717f6f" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> SPRING HILL<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 57.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_39b83b63bbd45a83380c5a903ef3b83a.setContent(html_b178bb05e66d516685e53f2198717f6f);
+            
+        
+
+        marker_39e1f972e1449f282b7c612fc7f305f6.bindPopup(popup_39b83b63bbd45a83380c5a903ef3b83a)
+        ;
+
+        
+    
+    
+                marker_39e1f972e1449f282b7c612fc7f305f6.setIcon(icon_219cd30f74ba8e83d2e039fb3e37535d);
+            
+    
+            var marker_c9130eed177abcf4951240f5858f9457 = L.marker(
+                [-27.4108007, 153.0103865],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_24d4724dc1bccc5022c1b4c862194283 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6e963f02c68e2732330cde925bd64bf1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1cffbb344ecf44699865437a02a0dc6 = $(`<div id="html_c1cffbb344ecf44699865437a02a0dc6" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> STAFFORD<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 82.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Working Towards NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_6e963f02c68e2732330cde925bd64bf1.setContent(html_c1cffbb344ecf44699865437a02a0dc6);
+            
+        
+
+        marker_c9130eed177abcf4951240f5858f9457.bindPopup(popup_6e963f02c68e2732330cde925bd64bf1)
+        ;
+
+        
+    
+    
+                marker_c9130eed177abcf4951240f5858f9457.setIcon(icon_24d4724dc1bccc5022c1b4c862194283);
+            
+    
+            var marker_87bf065547756c845efec559361b834f = L.marker(
+                [-27.6169467, 153.0495303],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_789cce577e388d5f66b3e075d73d291f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6fd745ab784a07b12a1ca85ec1517565 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b390a40aa248afbb898555661a051be = $(`<div id="html_9b390a40aa248afbb898555661a051be" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> CALAMVALE<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 75.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_6fd745ab784a07b12a1ca85ec1517565.setContent(html_9b390a40aa248afbb898555661a051be);
+            
+        
+
+        marker_87bf065547756c845efec559361b834f.bindPopup(popup_6fd745ab784a07b12a1ca85ec1517565)
+        ;
+
+        
+    
+    
+                marker_87bf065547756c845efec559361b834f.setIcon(icon_789cce577e388d5f66b3e075d73d291f);
+            
+    
+            var marker_e748a272b81ce442ddae02e2453d9d33 = L.marker(
+                [-27.4952415, 152.9854035],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_0910e79af8f405ea2ed63ea79040c43a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ef1a341c63a9117b38726db6b53441cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa4ef2a36600240db1097603439c7fba = $(`<div id="html_aa4ef2a36600240db1097603439c7fba" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> TARINGA<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 43.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_ef1a341c63a9117b38726db6b53441cc.setContent(html_aa4ef2a36600240db1097603439c7fba);
+            
+        
+
+        marker_e748a272b81ce442ddae02e2453d9d33.bindPopup(popup_ef1a341c63a9117b38726db6b53441cc)
+        ;
+
+        
+    
+    
+                marker_e748a272b81ce442ddae02e2453d9d33.setIcon(icon_0910e79af8f405ea2ed63ea79040c43a);
+            
+    
+            var marker_4a40d738267eb1255182a2cc3d2f6a7d = L.marker(
+                [-27.52633, 153.0441075],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_1df1017522c10e41921e38e0bf777cb2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_553013485088a39f9d04fc978120b24d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af575dac59a487d96841f3ae1ce5bf65 = $(`<div id="html_af575dac59a487d96841f3ae1ce5bf65" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> TARRAGINDI<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 68.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_553013485088a39f9d04fc978120b24d.setContent(html_af575dac59a487d96841f3ae1ce5bf65);
+            
+        
+
+        marker_4a40d738267eb1255182a2cc3d2f6a7d.bindPopup(popup_553013485088a39f9d04fc978120b24d)
+        ;
+
+        
+    
+    
+                marker_4a40d738267eb1255182a2cc3d2f6a7d.setIcon(icon_1df1017522c10e41921e38e0bf777cb2);
+            
+    
+            var marker_211f89b33d0b9b98d23d066379716328 = L.marker(
+                [-27.5122673, 153.0420937],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_2a45ea1707682d19b2389088d604ff84 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_423d37b289cc43091432b228c91e99a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_123a07f74ff93d19a91d33505cbf4940 = $(`<div id="html_123a07f74ff93d19a91d33505cbf4940" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> EKIBIN<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 58.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_423d37b289cc43091432b228c91e99a8.setContent(html_123a07f74ff93d19a91d33505cbf4940);
+            
+        
+
+        marker_211f89b33d0b9b98d23d066379716328.bindPopup(popup_423d37b289cc43091432b228c91e99a8)
+        ;
+
+        
+    
+    
+                marker_211f89b33d0b9b98d23d066379716328.setIcon(icon_2a45ea1707682d19b2389088d604ff84);
+            
+    
+            var marker_bde4c3e3523c5b0948be34da0bc1ee4f = L.marker(
+                [-27.4436425, 152.9453605],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_0967df962f4874e3919ff007a0295d35 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_36d7c2c98b63e53393dbf2d07dd52e6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c08f45f4af7389cedf855702cde5a821 = $(`<div id="html_c08f45f4af7389cedf855702cde5a821" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> THE GAP<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 48.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_36d7c2c98b63e53393dbf2d07dd52e6a.setContent(html_c08f45f4af7389cedf855702cde5a821);
+            
+        
+
+        marker_bde4c3e3523c5b0948be34da0bc1ee4f.bindPopup(popup_36d7c2c98b63e53393dbf2d07dd52e6a)
+        ;
+
+        
+    
+    
+                marker_bde4c3e3523c5b0948be34da0bc1ee4f.setIcon(icon_0967df962f4874e3919ff007a0295d35);
+            
+    
+            var marker_9f9db3df680afb495a184e8b7d2f9657 = L.marker(
+                [-27.4436425, 152.9453605],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_41fa5619f54a1e5c409bef1865c33a4e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91bfe46b5189876d5b7743e26dc164c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4051519e9d3893c5a6c71b502afa9a3a = $(`<div id="html_4051519e9d3893c5a6c71b502afa9a3a" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> THE GAP<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 95.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_91bfe46b5189876d5b7743e26dc164c9.setContent(html_4051519e9d3893c5a6c71b502afa9a3a);
+            
+        
+
+        marker_9f9db3df680afb495a184e8b7d2f9657.bindPopup(popup_91bfe46b5189876d5b7743e26dc164c9)
+        ;
+
+        
+    
+    
+                marker_9f9db3df680afb495a184e8b7d2f9657.setIcon(icon_41fa5619f54a1e5c409bef1865c33a4e);
+            
+    
+            var marker_d3a3a89f1219fe66039e9e1ee9ad58ef = L.marker(
+                [-27.473625, 153.1250537],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_602da5344ed7646340ddb14da9fc6748 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2f401cb84ad2cfe35d6f2ebe8bd81dbc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69ac3d30bc31d2ae27a13a38eb91446a = $(`<div id="html_69ac3d30bc31d2ae27a13a38eb91446a" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> TINGALPA<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 75.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_2f401cb84ad2cfe35d6f2ebe8bd81dbc.setContent(html_69ac3d30bc31d2ae27a13a38eb91446a);
+            
+        
+
+        marker_d3a3a89f1219fe66039e9e1ee9ad58ef.bindPopup(popup_2f401cb84ad2cfe35d6f2ebe8bd81dbc)
+        ;
+
+        
+    
+    
+                marker_d3a3a89f1219fe66039e9e1ee9ad58ef.setIcon(icon_602da5344ed7646340ddb14da9fc6748);
+            
+    
+            var marker_ebc8c278d08ea2a752502a068b0efbd7 = L.marker(
+                [-27.473625, 153.1250537],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_7719827a602c98a349e73430a55ca93e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c77f69619a628ec3c310b0f071e97bea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac061a7eb41f98a14b93913df2ab5c66 = $(`<div id="html_ac061a7eb41f98a14b93913df2ab5c66" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> TINGALPA<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 50.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_c77f69619a628ec3c310b0f071e97bea.setContent(html_ac061a7eb41f98a14b93913df2ab5c66);
+            
+        
+
+        marker_ebc8c278d08ea2a752502a068b0efbd7.bindPopup(popup_c77f69619a628ec3c310b0f071e97bea)
+        ;
+
+        
+    
+    
+                marker_ebc8c278d08ea2a752502a068b0efbd7.setIcon(icon_7719827a602c98a349e73430a55ca93e);
+            
+    
+            var marker_60658f23c190c2a9c4b7d0f7c32e8836 = L.marker(
+                [-27.478974, 152.9853241],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_977153ac2e17c17a5ed1607f2ebfa457 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8fcc0305166ec2c5b3c428c389f664ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f70cd983cdd0351f74a07d23b255dbf4 = $(`<div id="html_f70cd983cdd0351f74a07d23b255dbf4" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> TOOWONG<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 50.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_8fcc0305166ec2c5b3c428c389f664ec.setContent(html_f70cd983cdd0351f74a07d23b255dbf4);
+            
+        
+
+        marker_60658f23c190c2a9c4b7d0f7c32e8836.bindPopup(popup_8fcc0305166ec2c5b3c428c389f664ec)
+        ;
+
+        
+    
+    
+                marker_60658f23c190c2a9c4b7d0f7c32e8836.setIcon(icon_977153ac2e17c17a5ed1607f2ebfa457);
+            
+    
+            var marker_fc838e4e1e1981cdc9dce651b730bd7a = L.marker(
+                [-27.4873019, 153.0064344],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_bf0c68b2c38f3b65141db841b92ba0e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ec6243149fa5d310beba7e30dc23e31b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b087d1b9d8a91676cc6a02c2714daa97 = $(`<div id="html_b087d1b9d8a91676cc6a02c2714daa97" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> HILL END<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 60.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Exceeding NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_ec6243149fa5d310beba7e30dc23e31b.setContent(html_b087d1b9d8a91676cc6a02c2714daa97);
+            
+        
+
+        marker_fc838e4e1e1981cdc9dce651b730bd7a.bindPopup(popup_ec6243149fa5d310beba7e30dc23e31b)
+        ;
+
+        
+    
+    
+                marker_fc838e4e1e1981cdc9dce651b730bd7a.setIcon(icon_bf0c68b2c38f3b65141db841b92ba0e7);
+            
+    
+            var marker_90b8894c4f9350d23b43adb12fb8bc31 = L.marker(
+                [-27.4823925, 153.0059316],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_feda517a0a519710d1349491fe4be34b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a822e71a6629584d908bc49d7b75d0ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6162636af9721c1c6cb35515d3de70fb = $(`<div id="html_6162636af9721c1c6cb35515d3de70fb" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> WEST END<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 62.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_a822e71a6629584d908bc49d7b75d0ad.setContent(html_6162636af9721c1c6cb35515d3de70fb);
+            
+        
+
+        marker_90b8894c4f9350d23b43adb12fb8bc31.bindPopup(popup_a822e71a6629584d908bc49d7b75d0ad)
+        ;
+
+        
+    
+    
+                marker_90b8894c4f9350d23b43adb12fb8bc31.setIcon(icon_feda517a0a519710d1349491fe4be34b);
+            
+    
+            var marker_799755e2a1fdc9a797ad2c914e68d9a4 = L.marker(
+                [-27.4335826, 153.020154],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_9dbb3f168ba4a22b6f60224708f28edc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6a15ef4bf57cb95dfe0a2aedf614b467 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a1a807015298c888a97d167418f54a0d = $(`<div id="html_a1a807015298c888a97d167418f54a0d" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> WILSTON<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 42.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_6a15ef4bf57cb95dfe0a2aedf614b467.setContent(html_a1a807015298c888a97d167418f54a0d);
+            
+        
+
+        marker_799755e2a1fdc9a797ad2c914e68d9a4.bindPopup(popup_6a15ef4bf57cb95dfe0a2aedf614b467)
+        ;
+
+        
+    
+    
+                marker_799755e2a1fdc9a797ad2c914e68d9a4.setIcon(icon_9dbb3f168ba4a22b6f60224708f28edc);
+            
+    
+            var marker_867e3259f5fc82665373d00f9344bb93 = L.marker(
+                [-27.4346805, 153.0309964],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_2ba05b9976d06b6bc3479863c09ad289 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4adaf2b29e8480ff65a6b129b35bf149 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2206900835d7956f8f273ae655ef38c8 = $(`<div id="html_2206900835d7956f8f273ae655ef38c8" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> WINDSOR<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 54.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_4adaf2b29e8480ff65a6b129b35bf149.setContent(html_2206900835d7956f8f273ae655ef38c8);
+            
+        
+
+        marker_867e3259f5fc82665373d00f9344bb93.bindPopup(popup_4adaf2b29e8480ff65a6b129b35bf149)
+        ;
+
+        
+    
+    
+                marker_867e3259f5fc82665373d00f9344bb93.setIcon(icon_2ba05b9976d06b6bc3479863c09ad289);
+            
+    
+            var marker_2af997266d518afa754c7499eb9dd889 = L.marker(
+                [-27.492785, 153.038302],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_17f809aea5d6d137de42ca6527486562 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_262f74c1fd2468aa84ecb84d47d6f07b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf077307234cd41bf6e4449886547151 = $(`<div id="html_cf077307234cd41bf6e4449886547151" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> WOOLLOONGABBA<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 44.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_262f74c1fd2468aa84ecb84d47d6f07b.setContent(html_cf077307234cd41bf6e4449886547151);
+            
+        
+
+        marker_2af997266d518afa754c7499eb9dd889.bindPopup(popup_262f74c1fd2468aa84ecb84d47d6f07b)
+        ;
+
+        
+    
+    
+                marker_2af997266d518afa754c7499eb9dd889.setIcon(icon_17f809aea5d6d137de42ca6527486562);
+            
+    
+            var marker_8a3b385c1ccc05999f87726a02b124e2 = L.marker(
+                [-27.4377187, 153.1659743],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_dcf9180974dad3ae3a3d63b0dfb6413a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_428e38fd64d33c2217b8baedf5cbbc52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b381c2b181c058c6bc6c84fecf4ec512 = $(`<div id="html_b381c2b181c058c6bc6c84fecf4ec512" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> WYNNUM<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 48.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_428e38fd64d33c2217b8baedf5cbbc52.setContent(html_b381c2b181c058c6bc6c84fecf4ec512);
+            
+        
+
+        marker_8a3b385c1ccc05999f87726a02b124e2.bindPopup(popup_428e38fd64d33c2217b8baedf5cbbc52)
+        ;
+
+        
+    
+    
+                marker_8a3b385c1ccc05999f87726a02b124e2.setIcon(icon_dcf9180974dad3ae3a3d63b0dfb6413a);
+            
+    
+            var marker_a58a4dfea5251da573029b0578d1c660 = L.marker(
+                [-27.4539766, 153.1562022],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_cff57437a0b2797ca96821bb216fe9eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_86287c61da336cd2257df9912c5e3f50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02e9c37ed3aceb178b8c1e8b14d2756d = $(`<div id="html_02e9c37ed3aceb178b8c1e8b14d2756d" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> WYNNUM WEST<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 59.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_86287c61da336cd2257df9912c5e3f50.setContent(html_02e9c37ed3aceb178b8c1e8b14d2756d);
+            
+        
+
+        marker_a58a4dfea5251da573029b0578d1c660.bindPopup(popup_86287c61da336cd2257df9912c5e3f50)
+        ;
+
+        
+    
+    
+                marker_a58a4dfea5251da573029b0578d1c660.setIcon(icon_cff57437a0b2797ca96821bb216fe9eb);
+            
+    
+            var marker_0892a24a0604725f548b54cdf18dcdb6 = L.marker(
+                [-27.517806, 153.0168916],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_e03674e2348b0cd85ccd2df6696166be = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_edf13cc17286ed6a9f2a4e25f75d7c96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d153ce84eb923201edc76052e38ba78 = $(`<div id="html_3d153ce84eb923201edc76052e38ba78" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> YERONGA<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 59.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Working Towards NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_edf13cc17286ed6a9f2a4e25f75d7c96.setContent(html_3d153ce84eb923201edc76052e38ba78);
+            
+        
+
+        marker_0892a24a0604725f548b54cdf18dcdb6.bindPopup(popup_edf13cc17286ed6a9f2a4e25f75d7c96)
+        ;
+
+        
+    
+    
+                marker_0892a24a0604725f548b54cdf18dcdb6.setIcon(icon_e03674e2348b0cd85ccd2df6696166be);
+            
+    
+            var marker_2499b50a5e0c49048d34e532bf24d61b = L.marker(
+                [-22.8102933, 148.7011426],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_8211d65dbac3afd15fcc4571012ec591 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9ec3d510c41d5e20d507e589ee74346d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db82b71ba1d5afec0745027e1b56391d = $(`<div id="html_db82b71ba1d5afec0745027e1b56391d" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> MIDDLEMOUNT<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 74.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_9ec3d510c41d5e20d507e589ee74346d.setContent(html_db82b71ba1d5afec0745027e1b56391d);
+            
+        
+
+        marker_2499b50a5e0c49048d34e532bf24d61b.bindPopup(popup_9ec3d510c41d5e20d507e589ee74346d)
+        ;
+
+        
+    
+    
+                marker_2499b50a5e0c49048d34e532bf24d61b.setIcon(icon_8211d65dbac3afd15fcc4571012ec591);
+            
+    
+            var marker_f6a5b6e3b164ea8becb4b2e56e4fa7ac = L.marker(
+                [-22.526545, 148.3173113],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_f12fe60a1dbd4804bf41b3faf459d328 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_409d3e6612d8c4a951b8de275965a5d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a719efca007b11f07371b1517a97b5d5 = $(`<div id="html_a719efca007b11f07371b1517a97b5d5" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> DYSART<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 60.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_409d3e6612d8c4a951b8de275965a5d9.setContent(html_a719efca007b11f07371b1517a97b5d5);
+            
+        
+
+        marker_f6a5b6e3b164ea8becb4b2e56e4fa7ac.bindPopup(popup_409d3e6612d8c4a951b8de275965a5d9)
+        ;
+
+        
+    
+    
+                marker_f6a5b6e3b164ea8becb4b2e56e4fa7ac.setIcon(icon_f12fe60a1dbd4804bf41b3faf459d328);
+            
+    
+            var marker_a1b7211efc02203ec9c0812422f1ee60 = L.marker(
+                [-24.8653253, 152.3516785],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_249e59230a9e4fc1ead467f6ab83d37d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1d9536481dbca54d3fee15e45557fc24 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e15115cede391ee4251b142a7b81bf92 = $(`<div id="html_e15115cede391ee4251b142a7b81bf92" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> BUNDABERG<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 74.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_1d9536481dbca54d3fee15e45557fc24.setContent(html_e15115cede391ee4251b142a7b81bf92);
+            
+        
+
+        marker_a1b7211efc02203ec9c0812422f1ee60.bindPopup(popup_1d9536481dbca54d3fee15e45557fc24)
+        ;
+
+        
+    
+    
+                marker_a1b7211efc02203ec9c0812422f1ee60.setIcon(icon_249e59230a9e4fc1ead467f6ab83d37d);
+            
+    
+            var marker_af9ae77787276ab46412c55b31df14f6 = L.marker(
+                [-24.8653253, 152.3516785],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_b0ac5b955856346b9ce86d99fa67d55f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d049661c1eef85bf49291df6adfb663f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b2c7b0122a38f8a494a0ed4d1eff4a05 = $(`<div id="html_b2c7b0122a38f8a494a0ed4d1eff4a05" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> BUNDABERG<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 75.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_d049661c1eef85bf49291df6adfb663f.setContent(html_b2c7b0122a38f8a494a0ed4d1eff4a05);
+            
+        
+
+        marker_af9ae77787276ab46412c55b31df14f6.bindPopup(popup_d049661c1eef85bf49291df6adfb663f)
+        ;
+
+        
+    
+    
+                marker_af9ae77787276ab46412c55b31df14f6.setIcon(icon_b0ac5b955856346b9ce86d99fa67d55f);
+            
+    
+            var marker_13e2c20b2ade7a7062b647560edb925c = L.marker(
+                [-24.8653253, 152.3516785],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_2ac4b8e35230c60c08b1a87a370f4761 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_222bdcb884c429c32c3797ef2eac845c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3d421a5830cd36e93402bce0f8fdb7e = $(`<div id="html_e3d421a5830cd36e93402bce0f8fdb7e" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> BUNDABERG<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 70.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_222bdcb884c429c32c3797ef2eac845c.setContent(html_e3d421a5830cd36e93402bce0f8fdb7e);
+            
+        
+
+        marker_13e2c20b2ade7a7062b647560edb925c.bindPopup(popup_222bdcb884c429c32c3797ef2eac845c)
+        ;
+
+        
+    
+    
+                marker_13e2c20b2ade7a7062b647560edb925c.setIcon(icon_2ac4b8e35230c60c08b1a87a370f4761);
+            
+    
+            var marker_c82c6cecbdd4e5bac4be211de1acd4cf = L.marker(
+                [-19.5758597, 147.4044626],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_c5ac0b9cbe01d062e8e1e54278677b4c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aecc23c3357fe6c4238f6c339d434dbb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f504ed1ffede0730539db53b4edea01 = $(`<div id="html_4f504ed1ffede0730539db53b4edea01" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> AYR<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 58.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_aecc23c3357fe6c4238f6c339d434dbb.setContent(html_4f504ed1ffede0730539db53b4edea01);
+            
+        
+
+        marker_c82c6cecbdd4e5bac4be211de1acd4cf.bindPopup(popup_aecc23c3357fe6c4238f6c339d434dbb)
+        ;
+
+        
+    
+    
+                marker_c82c6cecbdd4e5bac4be211de1acd4cf.setIcon(icon_c5ac0b9cbe01d062e8e1e54278677b4c);
+            
+    
+            var marker_f494eadca0858affff3053694638c987 = L.marker(
+                [-27.0839336, 152.9510863],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_d2fbe438d043e6b0b662eb76013ac95a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9e72e3db2872cfb94f2d66975fcfabb6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86564eefe8a960955ef2d6de78b9d675 = $(`<div id="html_86564eefe8a960955ef2d6de78b9d675" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> CABOOLTURE<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 60.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> City         </div>`)[0];
+                popup_9e72e3db2872cfb94f2d66975fcfabb6.setContent(html_86564eefe8a960955ef2d6de78b9d675);
+            
+        
+
+        marker_f494eadca0858affff3053694638c987.bindPopup(popup_9e72e3db2872cfb94f2d66975fcfabb6)
+        ;
+
+        
+    
+    
+                marker_f494eadca0858affff3053694638c987.setIcon(icon_d2fbe438d043e6b0b662eb76013ac95a);
+            
+    
+            var marker_87e5c29fa73dbb65793063e7cd9392bc = L.marker(
+                [-27.0839336, 152.9510863],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_1a3a92e529ff014ef14b406bf5cf4c48 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1e2bddf46543c74a045b01ce79ae3027 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d40b7b50dafe326a8b88d96dde9be5b = $(`<div id="html_1d40b7b50dafe326a8b88d96dde9be5b" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> CABOOLTURE<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 79.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> City         </div>`)[0];
+                popup_1e2bddf46543c74a045b01ce79ae3027.setContent(html_1d40b7b50dafe326a8b88d96dde9be5b);
+            
+        
+
+        marker_87e5c29fa73dbb65793063e7cd9392bc.bindPopup(popup_1e2bddf46543c74a045b01ce79ae3027)
+        ;
+
+        
+    
+    
+                marker_87e5c29fa73dbb65793063e7cd9392bc.setIcon(icon_1a3a92e529ff014ef14b406bf5cf4c48);
+            
+    
+            var marker_bd501acf8131905909cc8c22171d3d76 = L.marker(
+                [-16.9462685, 145.7270251],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_ccf3c020e473f8b399e60609d8002d30 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1c67dddd69904b852f3edd04d334e462 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5456607860075fbc79370e84f72a6e1e = $(`<div id="html_5456607860075fbc79370e84f72a6e1e" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> EARLVILLE<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 70.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_1c67dddd69904b852f3edd04d334e462.setContent(html_5456607860075fbc79370e84f72a6e1e);
+            
+        
+
+        marker_bd501acf8131905909cc8c22171d3d76.bindPopup(popup_1c67dddd69904b852f3edd04d334e462)
+        ;
+
+        
+    
+    
+                marker_bd501acf8131905909cc8c22171d3d76.setIcon(icon_ccf3c020e473f8b399e60609d8002d30);
+            
+    
+            var marker_acf85f2ed324fdcce0ded62a46fa974f = L.marker(
+                [-16.934932, 145.7308832],
+                {
+}
+            ).addTo(marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460);
+        
+    
+            var icon_ebe01153fa1cefff58ce920ad89f8d84 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9356b254658f32077ba752bdb42cc77f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_703c042857a667fbe9d2d742a985eab2 = $(`<div id="html_703c042857a667fbe9d2d742a985eab2" style="width: 100.0%; height: 100.0%;">         <b>Suburb:</b> MOOROOBOOL<br>         <b>Service Type:</b> Centre-Based Care<br>         <b>Approved Places:</b> 67.0<br>  <!-- Fix Here -->         <b>Overall Rating:</b> Meeting NQS<br>         <b>Region:</b> Regional         </div>`)[0];
+                popup_9356b254658f32077ba752bdb42cc77f.setContent(html_703c042857a667fbe9d2d742a985eab2);
+            
+        
+
+        marker_acf85f2ed324fdcce0ded62a46fa974f.bindPopup(popup_9356b254658f32077ba752bdb42cc77f)
+        ;
+
+        
+    
+    
+                marker_acf85f2ed324fdcce0ded62a46fa974f.setIcon(icon_ebe01153fa1cefff58ce920ad89f8d84);
+            
+    
+            marker_cluster_e5ba3097f1dba9add4ce6a0ca63a7460.addTo(map_ecdb111c700fe6d389c9d2fe901d6279);
+        
+</script>
+</html>
